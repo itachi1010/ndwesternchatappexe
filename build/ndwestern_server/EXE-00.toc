@@ -92,7 +92,7 @@
  [],
  False,
  False,
- 1690497480,
+ 1690584552,
  [('run.exe',
    'C:\\Users\\Benedict\\Documents\\Python_prototypes\\hostandclient_exe\\venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')])

@@ -15,14 +15,14 @@ HOST = socket.gethostbyname(socket.gethostname())
 
 if HOST == '127.0.0.1':
     print('You are connected to your localhost (127.0.0.1), not to the LAN network')
-
-# Get the last 4 digits and convert them to an integer
-raw_port = ''.join(HOST.split('.')[2:])
-PORT = int(raw_port)
-
-# Make sure the PORT is within the permissible range (use a default port if not)
-if PORT<1024 or PORT>65535:
-    PORT = 1234  # default port
+#
+# # Get the last 4 digits and convert them to an integer
+# raw_port = ''.join(HOST.split('.')[2:])
+# PORT = int(raw_port)
+#
+# # Make sure the PORT is within the permissible range (use a default port if not)
+# if PORT<1024 or PORT>65535:
+PORT = 65534  # default port
 
 LISTENER_LIMIT = 5
 active_clients = []
